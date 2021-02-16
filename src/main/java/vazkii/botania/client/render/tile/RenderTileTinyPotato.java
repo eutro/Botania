@@ -109,7 +109,7 @@ public class RenderTileTinyPotato extends BlockEntityRenderer<TileTinyPotato> {
 	}
 
 	private static Identifier taterLocation(String name) {
-		return new Identifier(LibMisc.MOD_ID, LibResources.PREFIX_TINY_POTATO + normalizeName(name));
+		return new Identifier(LibMisc.MOD_ID, LibResources.PREFIX_TINY_POTATO + "/" + normalizeName(name));
 	}
 
 	private static String normalizeName(String name) {
